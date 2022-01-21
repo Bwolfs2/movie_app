@@ -1,4 +1,4 @@
-# Coffsy Movie App
+# Movie App(Multi Repo)
 
 This project aims to present an approach on how to implement a Package-oriented project as Mono-Repo but leaving the possibility of placing the External Modules in another separate Github or Pub, thus being able to use the same as Multi-Repo. Flutter_modular was used to separate the dependency injections into each module so that when you no longer use the dependency, it is removed or removed from memory when exiting the Module.
 Flutter_triple was used to simplify Store/Controllers actions and link screen actions with UseCases that link to the Movie API.
@@ -66,6 +66,8 @@ Commom libraries beetween MainApp, External and Internal Modules
 
 
 # This Project was Based on:
+
+MonoRepo Project https://github.com/Bwolfs2/coffsy_movie_app   <- MonoRepo Project
 
 Project Based on https://github.com/rrifafauzikomara/MovieApp   <- Project With Bloc
 
